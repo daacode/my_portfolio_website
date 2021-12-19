@@ -13,8 +13,16 @@
         <h2 class="animate-subtitle">
           On a mission to help SMEs across the globe do businesses seamlessly and digitally.
         </h2>
-        <div class="scroll-button animate-scroll" tabindex="0">
-          <div class="arrow">→</div> scroll
+        <div tabindex="0">
+            <svg
+            width="24"
+            height="24"
+            xmlns="http://www.w3.org/2000/svg"
+            fillRule="evenodd"
+            clipRule="evenodd"
+          >
+            <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+          </svg>
         </div>
       </div>
     </div>
@@ -34,6 +42,10 @@
         justify-content: center;
         text-align: left;
         align-items: start;
+    }
+
+    .container {
+        margin: 0 0 0 80px;
     }
 
     .info h1 {
@@ -61,7 +73,6 @@
     
     .fixed-info {
         position: absolute;
-        margin: auto;
         height: 100vh;
         width: 100%;
         top:0;
@@ -78,7 +89,7 @@
         content: "";
         z-index: -1;
         position: absolute;
-        background-color: var(--shade-100);
+        background-color: red;
         width: 100%;
         height: 50%;
         margin: auto;
@@ -90,34 +101,15 @@
         position: relative;
     }
 
-    .scroll-button {
-        position: absolute;
-        opacity: 0;
-        bottom: 0;
-        padding: 2rem 0;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        display: flex;
-        transition: opacity 250ms;
-    }
-
-    .scroll-button .arrow {
-        margin-right: 0.25rem;
-    }
-
-    .scroll-button:hover .arrow,
-    .scroll-button:focus .arrow {
-        animation: bounce-top 1.5s ease-in-out infinite both;
-    }   
-
+   
     .name {
     text-align: center;
     font-size: 1.25rem;
     color: var(--shade-500);
     letter-spacing: 1px;
     text-transform: uppercase;
-}
+    
+    }
 
 .info .animate-background:before {
   animation: slide-in-bottom 1s ease-in-out both;
@@ -131,8 +123,8 @@
   animation: fade-in-bottom 0.5s ease-in-out both;
 }
 
-.info .animate-text-2 {
-  animation: fade-in-bottom 0.5s ease-in-out 50ms both;
+.animate-text-2 {
+    padding-top: 15px;
 }
 
 .info .animate-subtitle {
