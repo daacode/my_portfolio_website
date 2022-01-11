@@ -28,6 +28,7 @@
     </div>
 </div>
 
+
 <style>
     .info {
         text-align: center;
@@ -110,30 +111,5 @@
     text-transform: uppercase;
     
     }
-
-.info .animate-background:before {
-  animation: slide-in-bottom 1s ease-in-out both;
-}
-
-.info .animate-name {
-  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-}
-
-.info .animate-text-1 {
-  animation: fade-in-bottom 0.5s ease-in-out both;
-}
-
-.animate-text-2 {
-    padding-top: 15px;
-}
-
-.info .animate-subtitle {
-  animation: fade-in-bottom 0.5s ease-in-out 100ms both;
-}
-
-.info .animate-scroll {
-  animation: fade-in-bottom 0.5s ease-in-out 150ms both;
-}
-
 
 </style>
