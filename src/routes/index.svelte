@@ -1,3 +1,8 @@
+<!-- src/routes/index.svelte -->
+<svelte:head>
+	<title>David Adeneye</title>
+</svelte:head>
+
 <div class="info">
     <div class="fixed-info animate-background">
       <div class="container info-container">
@@ -7,22 +12,14 @@
         <div class="info-text">
           <h1>
             <p class="animate-text-1">School-taught Computer Scientist,</p>
-            <p class="animate-text-2">Self-taught Software Engineer</p>
+            <p class="text-2">Self-taught Software Engineer</p>
           </h1>
         </div>
-        <h2 class="animate-subtitle">
+        <h2 class="subtitle">
           On a mission to help SMEs across the globe do businesses seamlessly and digitally.
         </h2>
-        <div tabindex="0">
-            <svg
-            width="24"
-            height="24"
-            xmlns="http://www.w3.org/2000/svg"
-            fillRule="evenodd"
-            clipRule="evenodd"
-          >
-            <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
-          </svg>
+        <div class="scroll-button animate-scroll" tabindex="0">
+          <a href="/about">Click Here</a><div class="arrow">→</div>
         </div>
       </div>
     </div>
@@ -69,7 +66,7 @@
         max-width: 65ch;
         font-weight: 200;
         color: var(--shade-500);
-        margin: 0;
+        margin-top: 0.50rem;
     }
     
     .fixed-info {
@@ -92,7 +89,7 @@
         position: absolute;
         background-color: red;
         width: 100%;
-        height: 50%;
+        height: 53%;
         margin: auto;
         bottom: 0;
         left: 0;
@@ -102,7 +99,6 @@
         position: relative;
     }
 
-   
     .name {
     text-align: center;
     font-size: 1.25rem;
@@ -111,5 +107,17 @@
     text-transform: uppercase;
     
     }
+
+  .scroll-button { 
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  transition: opacity 250ms;
+  }
+
+  .scroll-button .arrow {
+  margin-left: 0.50rem;
+}
 
 </style>
