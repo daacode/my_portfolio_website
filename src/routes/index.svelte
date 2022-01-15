@@ -4,25 +4,23 @@
 </svelte:head>
 
 <div class="info">
-    <div class="fixed-info animate-background">
+    <div class="animate-background">
       <div class="container info-container">
-        <div class="name-container">
-          <span class="name animate-name">David Adeneye</span>
-        </div>
         <div class="info-text">
           <h1>
             <p class="animate-text-1">School-taught Computer Scientist,</p>
-            <p class="text-2">Self-taught Software Engineer</p>
+            <p style="color: white;" class="text-2">Self-taught Software Engineer</p>
           </h1>
         </div>
-        <h2 class="subtitle">
+        <h2 class="subtitle" style="color: white;">
           On a mission to help SMEs across the globe do businesses seamlessly and digitally.
         </h2>
-        <div class="scroll-button animate-scroll" tabindex="0">
+        <div style="color: white;" class="scroll-button animate-scroll" tabindex="0">
           <a href="/about">Click Here</a><div class="arrow">→</div>
         </div>
       </div>
     </div>
+	<div class="fixed-info"></div>
 </div>
 
 
@@ -30,7 +28,6 @@
     .info {
         text-align: center;
         position: relative;
-        height: 100vh;
     }        
 
     .info-container {
@@ -43,7 +40,7 @@
     }
 
     .container {
-        margin: 0 0 0 80px;
+        margin: 190px 0 0 80px;
     }
 
     .info h1 {
@@ -68,44 +65,17 @@
         color: var(--shade-500);
         margin-top: 0.50rem;
     }
+
+	.fixed-info {
+		background-color: var(--background);
+        width: 100%;
+		height: 56vh;
+		margin: -155px 0 0 0px;
+	}
     
-    .fixed-info {
-        position: absolute;
-        height: 100vh;
-        width: 100%;
-        top:0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-    }
-
-    .fixed-info {
-        position: fixed;
-    }
-
-    .info .fixed-info:before {
-        content: "";
-        z-index: -1;
-        position: absolute;
-        background-color: red;
-        width: 100%;
-        height: 53%;
-        margin: auto;
-        bottom: 0;
-        left: 0;
-    }
-
+   
     .info .info-text {
         position: relative;
-    }
-
-    .name {
-    text-align: center;
-    font-size: 1.25rem;
-    color: var(--shade-500);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    
     }
 
   .scroll-button { 
