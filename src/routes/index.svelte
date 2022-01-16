@@ -3,25 +3,29 @@
 	<title>David Adeneye</title>
 </svelte:head>
 
-<div class="info">
-    <div class="animate-background">
-      <div class="container info-container">
-        <div class="info-text">
-          <h1>
-            <p class="animate-text-1">School-taught Computer Scientist,</p>
-            <p style="color: white;" class="text-2">Self-taught Software Engineer</p>
-          </h1>
-        </div>
-        <h2 class="subtitle" style="color: white;">
-          On a mission to help SMEs across the globe do businesses seamlessly and digitally.
-        </h2>
-        <div style="color: white;" class="scroll-button animate-scroll" tabindex="0">
-          <a href="/about">Click Here</a><div class="arrow">→</div>
-        </div>
-      </div>
-    </div>
-	<div class="fixed-info"></div>
+
+<div class="container">
+	<div class="info">
+		<div class="animate-background">
+		  <div class="container info-container">
+			<div class="info-text">
+			  <h1>
+				<p class="animate-text-1">School-taught Computer Scientist,</p>
+				<p style="color: white;" class="text-2">Self-taught Software Engineer</p>
+			  </h1>
+			</div>
+			<h2 class="subtitle" style="color: white;">
+			  On a mission to help SMEs across the globe do businesses seamlessly and digitally.
+			</h2>
+			<div style="color: white;" class="scroll-button animate-scroll" tabindex="0">
+			  <a href="/about">Click Here</a><div class="arrow">→</div>
+			</div>
+		  </div>
+		</div>
+	</div>
 </div>
+
+<div class="fixed-info"></div>
 
 
 <style>
@@ -40,7 +44,8 @@
     }
 
     .container {
-        margin: 190px 0 0 80px;
+		max-width: 1400px;
+        margin: 190px 0 0 2.5rem;
     }
 
     .info h1 {
@@ -70,7 +75,7 @@
 		background-color: var(--background);
         width: 100%;
 		height: 56vh;
-		margin: -155px 0 0 0px;
+		margin: -155px auto;
 	}
     
    

@@ -5,7 +5,7 @@
 
 <div class="main_container">
     <section id="about">
-        <div class="container inner-container">
+        <div class="inner-container">
           <h2 class="about-title">I'm David Adeneye👋</h2>
           <div class="about-subtitle">
               <p>
