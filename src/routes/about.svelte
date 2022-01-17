@@ -33,7 +33,6 @@
     .about-title {
         font-size: 4.2rem;
         font-weight: bold;
-        color: black;
         margin-top: 11rem;
     }
 
@@ -44,7 +43,6 @@
     .about-subtitle >p {
         width: 60%;
         font-weight: normal;
-        color: rgb(133, 131, 131);
         font-size: 1rem;
         line-height: 2rem;
     }

@@ -11,13 +11,13 @@
 			<div class="info-text">
 			  <h1>
 				<p class="animate-text-1">School-taught Computer Scientist,</p>
-				<p style="color: white;" class="text-2">Self-taught Software Engineer</p>
+				<p style="" class="text-2">Self-taught Software Engineer</p>
 			  </h1>
 			</div>
-			<h2 class="subtitle" style="color: white;">
+			<h2 class="subtitle" style="">
 			  On a mission to help SMEs across the globe do businesses seamlessly and digitally.
 			</h2>
-			<div style="color: white;" class="scroll-button animate-scroll" tabindex="0">
+			<div style="color:black" class="scroll-button animate-scroll" tabindex="0">
 			  <a href="/about">Click Here</a><div class="arrow">→</div>
 			</div>
 		  </div>
@@ -73,7 +73,7 @@
 
 	.fixed-info {
 		background-color: var(--background);
-        width: 100%;
+    width: 100%;
 		height: 56vh;
 		margin: -155px auto;
 	}

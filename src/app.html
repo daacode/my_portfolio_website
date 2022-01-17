@@ -14,13 +14,10 @@
 
 <style>
 	body {
-	margin: 0;
-	background-color: var(--background-color);
-	background-repeat: no-repeat;
-	background-position: left top;
-	color: var(--text-color);
+    background-position: left top;
 	font-family: "Inter", sans-serif;
-	
+	margin: 0;
+	background-repeat: no-repeat;
 	}
 
 	* {
@@ -29,12 +26,12 @@
 	}
 
 	a {
-	color: var(--shade-500);
 	text-decoration: none;
+    color: black;
 	}
 
 	:root{
-		--background: red;
+		--background: #ecebe8;
 	}
 
 
@@ -46,7 +43,6 @@
         margin: 0 80px 0 80px;
         padding-top: 2rem;
         padding-bottom: 2rem;
-        transition-timing-function: top 500ms;
     }
 
     nav .nav-container {
@@ -57,27 +53,24 @@
 
     .nav-links {
         display: flex;
-        margin: -1em 0;
-        flex: 1 0 auto;
         justify-content: flex-end;
         align-items: center;
+        margin: -1em 0;
+        flex: 1 0 auto;
     }
 
     .nav-links .link {
         position: relative;
         margin: 1em;
-        color: black;
         font-size: 0.85rem;
         letter-spacing: 1px;
-    }
-
-    .nav-links .link:hover:before {
-        max-width: 10rem;
+        color: black;
     }
 
     .nav-logo {
         position: relative;
         line-height: 1;
-        font-size: 1.1rem
+        font-size: 1.1rem;
+        color: black;
     }
 </style>
