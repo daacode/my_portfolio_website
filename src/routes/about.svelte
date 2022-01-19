@@ -4,7 +4,7 @@
 </svelte:head>
 
 <div class="main_container">
-    <section id="about">
+    <section>
         <div class="inner-container">
           <h2 class="about-title">I'm David Adeneye👋</h2>
           <div class="about-subtitle">
@@ -27,7 +27,7 @@
 
 <style>
     .main_container {
-        margin: 0 80px 0 80px;
+        margin: 0 80px 0 65px;
     }
 
     .about-title {
