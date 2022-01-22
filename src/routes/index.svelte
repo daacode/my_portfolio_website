@@ -18,7 +18,7 @@
 			  On a mission to help SMEs across the globe do businesses seamlessly and digitally.
 			</h2>
 			<div style="color:black" class="scroll-button animate-scroll" tabindex="0">
-			  <a href="/about">Click Here</a><div class="arrow">→</div>
+			  <a href="/about">See More About Me</a><div class="arrow">→</div>
 			</div>
 		  </div>
 		</div>
